@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf=8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Appear</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!--
+				Add class name 'appear' to elements you want to be
+				marked with class name 'visible' if in viewport.
+				Add a 'data-stick' attribute if you only want a elements
+				to trigger once.
+			-->
+			<div class="section appear box1">Section 1</div>
+			<div class="section appear">Section 2</div>
+			<div class="section appear">Section 3</div>
+			<div class="section">Section 4</div>
+			<div class="section">Section 5</div>
+			<div class="section appear">Section 6</div>
+			<div class="section appear">Section 7</div>
+			<div class="section appear">Section 8</div>
+			<div class="section appear">Section 9</div>
+			<div class="section appear" data-stick>Section 10</div>
+		</div>
+
+		<script src="appear.js"></script>
+	</body>
+</html>
